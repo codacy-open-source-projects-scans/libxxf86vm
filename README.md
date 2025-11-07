@@ -1,7 +1,18 @@
-# libxxf86vm - master branch
+libXxf86vm - Extension library for the XFree86-VidMode X extension
+------------------------------------------------------------------
 
-This repository contains the frozen state of the repository.
-Its history is cleared. It is used only for static code
-analysis with Codacy.
+All questions regarding this software should be directed at the
+Xorg mailing list:
 
-Commit Time: 1729392261
+  https://lists.x.org/mailman/listinfo/xorg
+
+The primary development code repository can be found at:
+
+  https://gitlab.freedesktop.org/xorg/lib/libXxf86vm
+
+Please submit bug reports and requests to merge patches there.
+
+For patch submission instructions, see:
+
+  https://www.x.org/wiki/Development/Documentation/SubmittingPatches
+
