@@ -25,7 +25,7 @@
 project(
   'libXxf86vm',
   'c',
-  version: '1.1.6',
+  version: '1.1.7',
   license: 'X11',
   license_files: 'COPYING',
   meson_version: '>= 1.1.0',
