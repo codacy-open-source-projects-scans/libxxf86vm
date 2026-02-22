@@ -50,6 +50,11 @@ lib = library(
   version: '1.0.0',
   install: true,
 )
+dep = declare_dependency(
+  include_directories: 'include',
+  link_with: lib,
+)
+meson.override_dependency('xxf86vm', dep)
 
 install_headers(
   'include/X11/extensions/xf86vmode.h',
